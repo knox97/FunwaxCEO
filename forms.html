@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+	<title>Form Master</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style type="text/css">
+		body {
+			background: url("http://cdn.allwallpaper.in/wallpapers/1680x1050/6901/minimalistic-candy-blurred-colors-smooth-1680x1050-wallpaper.jpg");
+		}
+		.b1 {
+			background: #000;
+			height: 600px;
+		}
+		.b2 {
+			background-color: #141414;
+			height: 600px;
+		}
+		.b3 {
+			background-color: #423419;
+			height: 600px;
+			background: #000;
+			background-attachment: fixed;
+			background-position: cover;
+		}
+		.a1 {
+			background: #000000;
+			height: 70px;
+			border-bottom: 1px solid #000;
+		}
+		.bPart {
+			margin: 10px 10px 0px 10px;
+			color: #DDD;
+
+		}
+		.content {
+			margin: 28px 5px 28px 5px;
+		}
+		.b2line {
+			height: 275px;
+		}
+		.line {
+			border-right: 1px solid #212121 
+		}
+		.b2mid {
+			height: 50px;
+		}
+		.b3sty {
+			height: 300px;
+		}
+		.mrg {
+			margin-bottom: 6px;
+			background-color: #272727;
+			border: 1px solid #555555
+		}
+		.mrg:hover {
+			background-color: #555555;
+			border: 1px solid #AAA;	
+		}
+		.rmbMe {
+			margin: 0px 2px 0px 2px;
+		}
+		.button {
+			color: #DDD;
+		}
+		.button:hover {
+			color: #EEE;
+		}
+		.spc {
+			margin-top: 20px;
+		}
+		.big {
+			padding: 2px 0px 2px 0px;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+	<div class="row aPart">
+	<!-- A1 -->
+	<div class="col-md-12 a1">
+		<p class="text h2" style="color: #FFFFFF; margin-bottom: 10px;"><img src="http://www.techspot.com/images2/downloads/topdownload/2014/05/unity.png" style="width: 42px; height: 42px;" alt="Logo" /> DOO "Funwax Inc", CEO Milovan Lacarak</p>
+	</div>
+	</div>
+
+	<div class="row bPart" style="margin-top: 25px;">
+	<!-- B1 -->
+	<div class="col-md-5 b1">
+		<div class="container-fluid content">
+			<p class="h1" style="color: #FFFFFF;">Welcome to Funwax</p>
+			<div class="container-fluid content" style="background: #030303; border: 1px solid #060606; padding: 10px 10px 10px 10px;">
+			<form>
+	<p class="h4 spc">
+		Please Log In to access the website
+	</p>
+	<p class="text text-default">
+		Username:
+		<br/>
+		<input class="mrg" style="width: 100%;" type="text" name="username" required />
+		<br/>
+		Email:
+		<br/>
+		<input class="mrg" style="width: 100%;" type="text" name="email" required />
+		<br/>
+		Password:
+		<br/>
+		<input class="mrg" type="password" style="width: 100%;" name="password" required />
+		<br/>
+		<input class="rmbMe" type="checkbox" name="rememberMe">
+		Remember Me
+		<br/>
+		<button class="button btn btn-primary">Log In</button>
+		<button class="button btn btn-link">Sign Up</button>
+		<br/>
+	</p>
+	</form>
+	<div class="container-fluid">
+	<p class="h4 spc text-center">
+		Chose your favorite language:
+		<br/>
+	</p>
+	
+		<span class="badge">1. </span><select class="mrg big" name="dropdown">
+			<option class="mrg" name="js">JavaScript</option>
+			<option class="mrg" name="java">Java</option>
+			<option class="mrg" name="py">Python</option>
+			<option class="mrg" name="php">PHP</option>
+			<option class="mrg" name="cs">C#</option>
+			<option class="mrg" name="cpp">C++</option>
+			<option class="mrg" name="ruby">Ruby</option>
+			<option class="mrg" name="objc">Ojective-C</option>
+			<span>Other:</span> 
+		<input class="mrg" type="text" name="other1" style="width: 244px;"> 
+		</select>
+		<br/>
+		<span class="badge">2. </span><select class="mrg big" name="dropdown">
+			<option class="mrg" name="js">JavaScript</option>
+			<option class="mrg" name="java">Java</option>
+			<option class="mrg" name="py">Python</option>
+			<option class="mrg" name="php">PHP</option>
+			<option class="mrg" name="cs">C#</option>
+			<option class="mrg" name="cpp">C++</option>
+			<option class="mrg" name="ruby">Ruby</option>
+			<option class="mrg" name="objc">Ojective-C</option>
+			Other: 
+		<input class="mrg" type="text" name="other2" style="width: 244px;"> 
+		</select>
+		<br/>
+		<span class="badge">3. </span><select class="mrg big" name="dropdown">
+		
+			<option class="mrg" name="js">JavaScript</option>
+			<option class="mrg" name="java">Java</option>
+			<option class="mrg" name="py">Python</option>
+			<option class="mrg" name="php">PHP</option>
+			<option class="mrg" name="cs">C#</option>
+			<option class="mrg" name="cpp">C++</option>
+			<option class="mrg" name="ruby">Ruby</option>
+			<option class="mrg" name="objc">Ojective-C</option>
+			Other: 
+		<input class="mrg" type="text" name="other3" style="width: 244px;"> 
+		</select>
+		<br/>
+		<button class="btn-sm btn-block btn-primary button" style="margin: 16px 0px 0px 0px;">Submit</button>
+	</div>
+
+</form>
+		</div>
+		</div>
+	</div>
+	<!-- B2 -->
+	<div class="col-md-2 b2">
+		<div class="row">
+			<div class="col-md-6 b2line line"></div>
+			<div class="col-md-6 b2line"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 b2mid">
+				<audio src="song/nirvanaterpis.mp3" autoplay loop controls style="margin-left: -17px; margin-top: 10px;">
+					
+				</audio>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 b2line line"></div>
+			<div class="col-md-6 b2line"></div>
+		</div>
+	</div>
+	<!-- B3 -->
+	<div class="col-md-5 b3">
+		<div class="row">
+			<div class="col-md-12 b3sty">
+				<div class="container-fluid content">
+					<img class="img-responsive" src="http://80.lv/wp-content/uploads/2015/04/Iestyn-Lloyd-unity5-4.png" alt="unityGame">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 b3sty">
+				<div class="container-fluid content">
+					<img class="img-responsive" src="http://forum.unity3d.com/attachments/scenery2-jpeg.37936/" alt="UnityGame1">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	</div>
+</body>
